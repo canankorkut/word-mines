@@ -68,16 +68,12 @@ yarn install
 ```bash
 # Firebase proje ayarlarından google-services.json (Android) ve GoogleService-Info.plist (iOS) dosyalarını indirin
 # Android: android/app/ klasörüne google-services.json kopyalayın
-# iOS: ios/[ProjeAdi]/ klasörüne GoogleService-Info.plist kopyalayın
 ```
 
 4. **Çalıştırma**
 ```bash
 # Android
 npx react-native run-android
-
-# iOS
-npx react-native run-ios
 ```
 
 ## 🎯 Oyun Kuralları
