@@ -1,24 +1,24 @@
 # Kelime Mayınları
 
-Türkçe kelime tabanlı, çok oyunculu mobil oyun. İki oyuncu arasında oynanan turn-based kelime oyunudur. Oyuncular ellerindeki harflerle 15x15 oyun tahtasında kelimeler oluşturarak puan kazanır, gizli mayınlar ve ödüllerle rekabetçi oyun deneyimi sunar.
+Kelime Mayınları, iki oyuncu arasında oynanan sıra tabanlı Türkçe kelime oyunudur. Oyuncular ellerindeki harflerle 15x15 oyun tahtasında stratejik kelimeler oluşturarak puan kazanırken, gizli mayınlar ve ödüllerle dolu rekabetçi bir deneyim yaşarlar.
 
 ## 📸 Ekran Görüntüleri
 
 ### Kullanıcı İşlemleri
 | Karşılama Ekranı | Giriş Ekranı | Kayıt Ekranı |
 |------------------|--------------|--------------|
-| ![Karşılama Ekranı](screenshots/welcome.png) | ![Giriş Ekranı](screenshots/login.png) | ![Kayıt Ekranı](screenshots/register.png) |
+| ![Image](https://github.com/user-attachments/assets/1ab056ae-47a7-4a1d-83c0-eb7158f37d28) | ![Image](https://github.com/user-attachments/assets/41434d5d-19e5-4a26-89bf-25a4eed1cd5e) | ![Image](https://github.com/user-attachments/assets/f5e7bd4f-d356-4dc1-83b1-d96473ab9a83) |
 
 ### Ana Menü ve Oyun
 | Ana Menü | Oyun Alanı |
 |----------|------------|
-| ![Ana Menü](screenshots/main-menu.png) | ![Oyun Alanı](screenshots/game-board.png) |
+| ![Image](https://github.com/user-attachments/assets/f6cefcc8-801b-4235-a1d8-85e910496bd4) | ![Image](https://github.com/user-attachments/assets/569e2cf8-9d7a-4414-99ce-6ac83d189d07) |
 
 ## ✨ Özellikler
 
 ### Oyun Mekanikleri
 - **15x15 Oyun Tahtası:** Özel bonus alanları ile gelişmiş puanlama sistemi  
-- **Turn-Based Gameplay:** Zamana karşı strateji (2dk, 5dk, 12sa, 24sa seçenekleri)  
+- **Sıralı Oyun Sistemi:** Zamana karşı strateji (2dk, 5dk, 12sa, 24sa seçenekleri)  
 - **Gerçek Zamanlı Çoklu Oyuncu:** Firebase ile anlık eşleştirme ve oyun takibi  
 - **100 Harfli Havuz Sistemi:** Türkçe harf dağılımına uygun puan sistemi  
 
@@ -40,7 +40,6 @@ Türkçe kelime tabanlı, çok oyunculu mobil oyun. İki oyuncu arasında oynana
 - Firestore (Veritabanı)  
 - Real-time Database (Anlık oyun durumu)  
 - Kelime Doğrulama: Türkçe Kelime Listesi  
-
 
 ## 🚀 Kurulum
 
@@ -87,7 +86,7 @@ npx react-native run-ios
 1. Her oyuncu 7 harf ile başlar
 2. İlk kelime oyun tahtasının merkezinden geçmeli
 3. Sonraki kelimeler mevcut harflere temas etmeli
-4. Kelimeler yatay, dikey veya çapraz olabilir
+4. Kelimeler yatay veya dikey olabilir
 5. Geçersiz kelimeler kabul edilmez
 
 ### Puanlama Sistemi
@@ -106,3 +105,8 @@ npx react-native run-ios
 - **Bölge Yasağı** (2 adet): Rakibi yarı tahtaya sınırlar
 - **Harf Yasağı** (3 adet): Rakibin 2 harfini dondurur
 - **Ekstra Hamle** (2 adet): İkinci kelime hakkı
+
+## 📞 İletişim
+
+- **Geliştirici**: Canan Korkut
+- **Email**: canankorkut1@gmail.com
