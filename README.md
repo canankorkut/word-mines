@@ -66,7 +66,7 @@ yarn install
 
 3. **Firebase konfigürasyonu**
 ```bash
-# Firebase proje ayarlarından google-services.json (Android) ve GoogleService-Info.plist (iOS) dosyalarını indirin
+# Firebase proje ayarlarından google-services.json (Android) dosyasını indirin
 # Android: android/app/ klasörüne google-services.json kopyalayın
 ```
 
